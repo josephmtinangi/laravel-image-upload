@@ -2,7 +2,7 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">{{ config('app.name') }}</a>
+    <a class="navbar-brand" href="{{ route('home') }}">{{ config('app.name') }}</a>
 
     <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav mr-auto">
