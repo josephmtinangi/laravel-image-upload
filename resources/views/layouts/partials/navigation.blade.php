@@ -10,7 +10,7 @@
                 <a class="nav-link" href="{{ route('home') }}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Upload Image</a>
+                <a class="nav-link" href="{{ route('upload.create') }}">Upload Image</a>
             </li>
         </ul>
     </div>

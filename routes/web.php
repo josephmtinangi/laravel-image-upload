@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+
+
+Route::group(['namespace' => 'Uploads'], function () {
+	Route::get('create')->uses('UploadController@create')->name('upload.create');
+	Route::post('store')->uses('UploadController@store')->name('upload.store');
+});
