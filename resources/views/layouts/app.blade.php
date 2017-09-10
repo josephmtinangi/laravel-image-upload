@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{ config('app.name') }}</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//bootswatch.com/4-alpha/lux/bootstrap.css">
+	<link rel="stylesheet" href="https://bootswatch.com/4-alpha/lux/bootstrap.css">
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 	@stack('style')
